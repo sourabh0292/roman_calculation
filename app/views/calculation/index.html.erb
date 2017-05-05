@@ -1,0 +1,6 @@
+<%= form_for(@cal, url: calculation_path, method: :post) do |f| %>  
+Roman Number <%= f.text_field :calculation %>
+Operator <%= f.text_field :operator %>
+Roman Number <%= f.text_field :calculation1 %>
+<%= f.submit%>
+<% end %>
